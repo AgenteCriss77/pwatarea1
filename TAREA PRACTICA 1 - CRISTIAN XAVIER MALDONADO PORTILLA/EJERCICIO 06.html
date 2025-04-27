@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Caja con Slider</title>
+    <style>
+        body {
+            background-color: #eef5ff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .caja {
+            background-color: #cce0ff;
+            border: 4px solid #3366cc;
+            border-radius: 15px;
+            width: 400px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #003399;
+            margin-bottom: 20px;
+        }
+        input[type="range"] {
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="caja">
+        <h2>Mi Caja Creativa</h2>
+        <input type="range" min="0" max="100" value="50">
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Biografía</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #3366cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Contenido principal */
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .content {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #e6f0ff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .content h2, .sidebar h2 {
+            color: #3366cc;
+        }
+
+        .content p, .sidebar p {
+            line-height: 1.6;
+            font-size: 18px;
+            color: #333333;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #3366cc;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .content {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .sidebar {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Mi Biografía</h1>
+        <p>Bienvenidos a mi página personal</p>
+    </header>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+        <div class="content">
+            <h2>Sobre mí</h2>
+            <p>Hola, Mi nombre es Cristian Xavier Maldonado Portilla. Siempre he tenido pasión por la tecnología, la inovacion y la programacion.</p>
+            
+            <h2>Mi Historia</h2>
+            <p>Nací en Ecuador, Ciudad de Guayaquil, y desde pequeño me ha gustado la tecnología y en la adolescencia conoci el arte de la programacion desarrollando
+                una pasion por seguir aprendiendo e inovando. 
+                Actualmente estoy trabajando en mi rama que es la informatica y estudiando en la Universidad Bolivariana del Ecuador,para mejorar mis habilidades en el desarrollo web.</p>
+        </div>
+
+        <!-- Barra lateral -->
+        <div class="sidebar">
+            <h2>Mis Pasatiempos</h2>
+            <p>Me gusta hacer Crossfit, hacer senderismo y escuchar música electrónica.</p>
+
+            <h2>Contacto</h2>
+            <p>Puedes ponerte en contacto conmigo a través de mis redes sociales:</p>
+            <ul>
+                <li><a href="https://www.instagram.com/cristian_xavier_cft/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.facebook.com/cris.mp.319" target="_blank">Facebook</a></li>
+                <li><a href="https://x.com/Criss77_Gamer" target="_blank">X</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Mi Biografía - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
