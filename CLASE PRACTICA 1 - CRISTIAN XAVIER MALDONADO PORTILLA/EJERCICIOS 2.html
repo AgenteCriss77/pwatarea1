@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <style type="text/css">
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+h2 {
+  color: #007acc;
+}
+
+footer {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005b99;
+}
+
+      </style>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa de Servicios - Ejercicio 2</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Empresa de Servicios CRISTIAN MALDONADO.NET</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#descripcion">Descripción</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#testimoniales">Testimoniales</a></li>
+        <li><a href="#formulario">Formulario</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+        <li><a href="#faq">Preguntas Frecuentes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>Bienvenidos a Empresa CRISTIAN MALDONADO.NET, expertos en servicios tecnológicos para tu negocio. Calidad, eficiencia y compromiso son nuestros pilares.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Información de Contacto</h2>
+    <p><strong>Dirección:</strong> AV. DELTA Y AV. KENNEDY, GUAYAQUIL</p>
+    <p><strong>Teléfono:</strong> +593 99 831 3174</p>
+    <p><strong>Email:</strong> xaviermoto2010@hotmail.com</p>
+  </section>
+
+  <section id="descripcion">
+    <h2>Descripción de la Empresa</h2>
+    <p>En Empresa CRISTIAN MALDONADO.NET ofrecemos soluciones en desarrollo web, marketing digital, y consultoría empresarial, enfocándonos en el crecimiento de nuestros clientes.</p>
+  </section>
+
+  <section id="portafolio">
+    <h2>Portafolio</h2>
+    <ul>
+      <li>Desarrollo de página web para Empresas de seguridad, Restaurante, Empresa Financiera, etc.</li>
+      <li>Campaña de redes sociales para Tienda Online</li>
+      <li>Aplicación móvil para Servicios de Delivery</li>
+    </ul>
+  </section>
+
+  <section id="testimoniales">
+    <h2>Testimoniales</h2>
+    <blockquote>"Empresa Cristian Maldonado.NET transformó nuestro negocio digitalmente. ¡Totalmente recomendados!" - Cliente A</blockquote>
+    <blockquote>"Profesionales, atentos y muy creativos. Nuestro sitio web quedó increíble." - Cliente </blockquote>
+  </section>
+
+  <section id="formulario">
+    <h2>Formulario de Contacto</h2>
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+      
+      <label for="email">Correo Electrónico:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="noticias">
+    <h2>Noticias</h2>
+    <article>
+      <h3>Nuevos servicios de marketing digital</h3>
+      <p>Desde abril 2025, ofrecemos paquetes de marketing digital adaptados a pymes.</p>
+    </article>
+    <article>
+      <h3>Certificación ISO 9001</h3>
+      <p>¡Logramos nuestra certificación de calidad ISO 9001! Seguimos comprometidos con la excelencia.</p>
+    </article>
+  </section>
+
+  <section id="precios">
+    <h2>Precios</h2>
+    <ul>
+      <li>Desarrollo Web Básico: $500</li>
+      <li>Marketing Digital (mensual): $300</li>
+      <li>Consultoría Empresarial (por hora): $50</li>
+    </ul>
+  </section>
+
+  <section id="recursos">
+    <h2>Recursos</h2>
+    <ul>
+      <li><a href="#">Guía para crear tu primer sitio web</a></li>
+      <li><a href="#">Tutorial de gestión de redes sociales</a></li>
+      <li><a href="#">Artículo sobre tendencias tecnológicas 2025</a></li>
+    </ul>
+  </section>
+
+  <section id="faq">
+    <h2>Preguntas Frecuentes</h2>
+    <h3>¿Qué servicios ofrecen?</h3>
+    <p>Desarrollo web, marketing digital y consultoría empresarial.</p>
+    <h3>¿Cómo puedo solicitar un presupuesto?</h3>
+    <p>Puede llenar el formulario de contacto o escribirnos a nuestro correo electrónico.</p>
+    <h3>¿Trabajan con empresas internacionales?</h3>
+    <p>Sí, ofrecemos servicios a clientes en todo el mundo.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Empresa de Servicios CRISTIAN MALDONADO.NET</p>
+  </footer>
+</body>
+</html>

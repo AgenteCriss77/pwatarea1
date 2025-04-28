@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Práctica 1 - CRISTIAN XAVIER MALDONADO PORTILLA</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            flex-grow: 1;
+        }
+
+        .menu-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .ejercicios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .ejercicio {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .ejercicio:hover {
+            transform: translateY(-5px);
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .ejercicio h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            margin-top: auto;
+        }
+
+        .descripcion {
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clase Práctica 1</h1>
+        <h2>Cristian Xavier Maldonado Portilla</h2>
+    </header>
+
+    <div class="container">
+        <div class="menu-card">
+            <div class="descripcion">
+                <p>Bienvenido a mi primera clase práctica de desarrollo web. En esta práctica, he desarrollado dos ejercicios que demuestran mis habilidades en HTML y CSS:</p>
+            </div>
+
+            <div class="ejercicios">
+                <a href="file:///C:/xampp/htdocs/EJERCICIOS-HTML/CLASE%20PRACTICA%201%20-%20CRISTIAN%20XAVIER%20MALDONADO%20PORTILLA/EJERCICIOS%201.html" class="ejercicio">
+                    <h3>EJERCICIOS 1</h3>
+                    <p>Currículum Vitae</p>
+                    <p>Un CV profesional que muestra mi información personal, formación académica y experiencia laboral.</p>
+                </a>
+
+                <a href="file:///C:/xampp/htdocs/EJERCICIOS-HTML/CLASE%20PRACTICA%201%20-%20CRISTIAN%20XAVIER%20MALDONADO%20PORTILLA/EJERCICIOS%202.html" class="ejercicio">
+                    <h3>EJERCICIOS 2</h3>
+                    <p>Sitio Web Empresarial</p>
+                    <p>Una página web completa para una empresa de servicios tecnológicos.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desarrollado por Cristian Xavier Maldonado Portilla | Universidad Bolivariana del Ecuador UBE</p>
+    </footer>
+</body>
+</html>
